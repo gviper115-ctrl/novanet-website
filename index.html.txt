@@ -1,0 +1,2382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOVANET - Building Africa's AI-Powered Business Future</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-network-wired"></i>
+                <span>NOVANET</span>
+            </div>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#why-novanet" class="nav-link">Why NovaNet</a>
+                <a href="#ecosystem" class="nav-link">Ecosystem</a>
+                <a href="#stats" class="nav-link">Stats</a>
+                <a href="#testimonials" class="nav-link">Testimonials</a>
+                <a href="#faq" class="nav-link">FAQ</a>
+                <a href="#contact" class="nav-link cta-btn">Get Started</a>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                Building Africa's <span class="gradient-text">AI-Powered</span> Business Future
+            </h1>
+            <p class="hero-subtitle">Transform your business with cutting-edge AI, automation, and digital solutions</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">
+                    Start Your Journey <i class="fas fa-arrow-right"></i>
+                </button>
+                <button class="btn btn-secondary" onclick="document.getElementById('services').scrollIntoView({behavior: 'smooth'})">
+                    Explore Services <i class="fas fa-play"></i>
+                </button>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="floating-card card-1">
+                <div class="card-content">
+                    <i class="fas fa-brain"></i>
+                    <p>AI Intelligence</p>
+                </div>
+            </div>
+            <div class="floating-card card-2">
+                <div class="card-content">
+                    <i class="fas fa-bolt"></i>
+                    <p>Lightning Fast</p>
+                </div>
+            </div>
+            <div class="floating-card card-3">
+                <div class="card-content">
+                    <i class="fas fa-shield-alt"></i>
+                    <p>Secure</p>
+                </div>
+            </div>
+            <div class="hologram"></div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="section-header">
+            <h2>Our <span class="gradient-text">Premium Services</span></h2>
+            <p>Comprehensive solutions for modern businesses</p>
+        </div>
+
+        <div class="services-grid">
+            <!-- Website Development -->
+            <div class="service-category">
+                <h3><i class="fas fa-globe"></i> Website Development</h3>
+                <div class="service-items">
+                    <div class="service-item">
+                        <div class="service-icon"><i class="fas fa-building"></i></div>
+                        <h4>Business Websites</h4>
+                        <p>Professional corporate online presence</p>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon"><i class="fas fa-home"></i></div>
+                        <h4>Real Estate Websites</h4>
+                        <p>Modern property showcase platforms</p>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon"><i class="fas fa-hotel"></i></div>
+                        <h4>Hotel Websites</h4>
+                        <p>Booking & hospitality management</p>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon"><i class="fas fa-graduation-cap"></i></div>
+                        <h4>School Websites</h4>
+                        <p>Educational institution portals</p>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon"><i class="fas fa-shopping-cart"></i></div>
+                        <h4>E-commerce Websites</h4>
+                        <p>Powerful online sales platforms</p>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon"><i class="fas fa-plane"></i></div>
+                        <h4>Tour Company Websites</h4>
+                        <p>Travel & tourism platforms</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Software Development -->
+            <div class="service-category">
+                <h3><i class="fas fa-code"></i> Software Development</h3>
+                <div class="service-items">
+                    <div class="service-item">
+                        <div class="service-icon"><i class="fas fa-cube"></i></div>
+                        <h4>ERP Systems</h4>
+                        <p>Enterprise resource planning solutions</p>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon"><i class="fas fa-users"></i></div>
+                        <h4>CRM Systems</h4>
+                        <p>Customer relationship management</p>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon"><i class="fas fa-receipt"></i></div>
+                        <h4>Invoice Systems</h4>
+                        <p>Automated billing & invoicing</p>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon"><i class="fas fa-calendar-check"></i></div>
+                        <h4>Booking Systems</h4>
+                        <p>Reservation management platform</p>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon"><i class="fas fa-robot"></i></div>
+                        <h4>Automation Software</h4>
+                        <p>Business process automation</p>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon"><i class="fas fa-microchip"></i></div>
+                        <h4>AI Business Systems</h4>
+                        <p>Intelligent operational systems</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- AI & Automation -->
+            <div class="service-category">
+                <h3><i class="fas fa-brain"></i> AI & Automation</h3>
+                <div class="service-items">
+                    <div class="service-item">
+                        <div class="service-icon"><i class="fas fa-robot"></i></div>
+                        <h4>AI Assistants</h4>
+                        <p>Intelligent virtual assistants</p>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon"><i class="fas fa-comments"></i></div>
+                        <h4>WhatsApp Automation</h4>
+                        <p>Automated messaging solutions</p>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon"><i class="fas fa-headset"></i></div>
+                        <h4>AI Customer Support</h4>
+                        <p>24/7 intelligent support systems</p>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon"><i class="fas fa-bullhorn"></i></div>
+                        <h4>AI Marketing Systems</h4>
+                        <p>Smart marketing automation</p>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon"><i class="fas fa-cogs"></i></div>
+                        <h4>Workflow Automation</h4>
+                        <p>Streamlined business workflows</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Branding & Printing -->
+            <div class="service-category">
+                <h3><i class="fas fa-palette"></i> Branding & Printing</h3>
+                <div class="service-items">
+                    <div class="service-item">
+                        <div class="service-icon"><i class="fas fa-id-card"></i></div>
+                        <h4>Business Cards</h4>
+                        <p>Premium business card design</p>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon"><i class="fas fa-image"></i></div>
+                        <h4>Roll-up Banners</h4>
+                        <p>Professional banner designs</p>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon"><i class="fas fa-newspaper"></i></div>
+                        <h4>Posters</h4>
+                        <p>Eye-catching poster designs</p>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon"><i class="fas fa-billboard"></i></div>
+                        <h4>Billboards</h4>
+                        <p>Large-scale advertising designs</p>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon"><i class="fas fa-sparkles"></i></div>
+                        <h4>Company Branding</h4>
+                        <p>Complete brand identity solutions</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Digital Marketing -->
+            <div class="service-category">
+                <h3><i class="fas fa-chart-line"></i> Digital Marketing</h3>
+                <div class="service-items">
+                    <div class="service-item">
+                        <div class="service-icon"><i class="fas fa-share-alt"></i></div>
+                        <h4>Social Media Marketing</h4>
+                        <p>Strategic social media campaigns</p>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon"><i class="fas fa-map-location-dot"></i></div>
+                        <h4>Google Business Optimization</h4>
+                        <p>Local SEO & business listings</p>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon"><i class="fas fa-search"></i></div>
+                        <h4>SEO</h4>
+                        <p>Search engine optimization</p>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon"><i class="fas fa-ad"></i></div>
+                        <h4>Advertising Campaigns</h4>
+                        <p>Targeted ad campaigns</p>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon"><i class="fas fa-magnet"></i></div>
+                        <h4>Lead Generation</h4>
+                        <p>Qualified lead acquisition</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Business Development -->
+            <div class="service-category">
+                <h3><i class="fas fa-rocket"></i> Business Development</h3>
+                <div class="service-items">
+                    <div class="service-item">
+                        <div class="service-icon"><i class="fas fa-chart-pie"></i></div>
+                        <h4>Growth Consultation</h4>
+                        <p>Strategic business growth planning</p>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon"><i class="fas fa-lightbulb"></i></div>
+                        <h4>Startup Systems</h4>
+                        <p>Complete startup solutions</p>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon"><i class="fas fa-arrows-alt"></i></div>
+                        <h4>Digital Transformation</h4>
+                        <p>Complete business modernization</p>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon"><i class="fas fa-handshake"></i></div>
+                        <h4>Supplier Integration</h4>
+                        <p>Supplier & marketplace connection</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why NovaNet Section -->
+    <section id="why-novanet" class="why-novanet">
+        <div class="section-header">
+            <h2>Why Businesses <span class="gradient-text">Need NovaNet</span></h2>
+            <p>Real problems. Real solutions.</p>
+        </div>
+
+        <div class="problems-container">
+            <div class="problems-col">
+                <div class="problem-card">
+                    <div class="problem-icon">
+                        <i class="fas fa-exclamation-circle"></i>
+                    </div>
+                    <h3>Losing Customers Due to Poor Online Presence</h3>
+                    <p>Without a modern website and social media strategy, you're invisible to potential customers in the digital world.</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">
+                        <i class="fas fa-exclamation-circle"></i>
+                    </div>
+                    <h3>No Automation Causing Wasted Time</h3>
+                    <p>Manual processes drain resources and reduce productivity. Your team spends hours on repetitive tasks.</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">
+                        <i class="fas fa-exclamation-circle"></i>
+                    </div>
+                    <h3>Weak Branding</h3>
+                    <p>Inconsistent messaging and poor visual identity make it hard to stand out in a competitive market.</p>
+                </div>
+            </div>
+
+            <div class="solutions-col">
+                <div class="problem-card">
+                    <div class="problem-icon">
+                        <i class="fas fa-exclamation-circle"></i>
+                    </div>
+                    <h3>Poor Customer Communication</h3>
+                    <p>Without proper systems, you can't track, manage, or respond to customer needs effectively.</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">
+                        <i class="fas fa-exclamation-circle"></i>
+                    </div>
+                    <h3>Lack of Digital Systems</h3>
+                    <p>Operating without integrated software solutions means fragmented data and inefficient operations.</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">
+                        <i class="fas fa-exclamation-circle"></i>
+                    </div>
+                    <h3>Businesses Being Invisible Online</h3>
+                    <p>Without SEO, marketing, and digital presence, your competitors capture your market share.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="solution-box">
+            <h3>How NovaNet Solves These Problems</h3>
+            <div class="solution-grid">
+                <div class="solution-item">
+                    <div class="solution-number">01</div>
+                    <h4>Complete Digital Presence</h4>
+                    <p>We build professional websites, manage social media, and optimize your online visibility with SEO and marketing strategies.</p>
+                </div>
+                <div class="solution-item">
+                    <div class="solution-number">02</div>
+                    <h4>AI-Powered Automation</h4>
+                    <p>Automate customer communication, workflows, invoicing, and operations using cutting-edge AI technology.</p>
+                </div>
+                <div class="solution-item">
+                    <div class="solution-number">03</div>
+                    <h4>Strong Brand Identity</h4>
+                    <p>Create powerful, consistent branding across all channels with professional design and printing services.</p>
+                </div>
+                <div class="solution-item">
+                    <div class="solution-number">04</div>
+                    <h4>Integrated Systems</h4>
+                    <p>Connect all your business tools - CRM, ERP, invoicing, booking - into one seamless ecosystem.</p>
+                </div>
+                <div class="solution-item">
+                    <div class="solution-number">05</div>
+                    <h4>24/7 AI Support</h4>
+                    <p>Intelligent customer support systems that never sleep, providing instant responses to customer inquiries.</p>
+                </div>
+                <div class="solution-item">
+                    <div class="solution-number">06</div>
+                    <h4>Data-Driven Growth</h4>
+                    <p>Smart analytics dashboards that reveal insights about your customers, operations, and opportunities.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ecosystem Section -->
+    <section id="ecosystem" class="ecosystem">
+        <div class="section-header">
+            <h2>The <span class="gradient-text">NovaNet Ecosystem</span></h2>
+            <p>Africa's AI-Powered Business Operating System</p>
+        </div>
+
+        <div class="ecosystem-vision">
+            <h3>Our Vision: One Interconnected Platform for All Business Needs</h3>
+            <p>NovaNet is building the future where businesses, suppliers, service providers, logistics companies, entrepreneurs, and customers connect through one intelligent, AI-powered ecosystem.</p>
+        </div>
+
+        <div class="ecosystem-features">
+            <div class="feature-row">
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <h4>AI-Powered Operating System</h4>
+                    <p>Intelligent business brain managing all operations</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-shopping-bag"></i>
+                    </div>
+                    <h4>Smart Marketplaces</h4>
+                    <p>Connected buying and selling platforms</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h4>Supplier & Trader Network</h4>
+                    <p>Direct connections between businesses</p>
+                </div>
+            </div>
+
+            <div class="feature-row">
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <h4>Logistics Integration</h4>
+                    <p>Seamless delivery and supply chain management</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-users-cog"></i>
+                    </div>
+                    <h4>AI-Driven CRM</h4>
+                    <p>Intelligent customer relationship management</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h4>AI Assistants</h4>
+                    <p>Virtual agents handling business tasks</p>
+                </div>
+            </div>
+
+            <div class="feature-row">
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h4>Automated Workflows</h4>
+                    <p>Intelligent process automation</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h4>Smart Analytics</h4>
+                    <p>Real-time insights and reporting</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-link"></i>
+                    </div>
+                    <h4>Connected Everything</h4>
+                    <p>One platform connecting all business needs</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="ecosystem-diagram">
+            <div class="ecosystem-center">
+                <div class="center-icon">
+                    <i class="fas fa-globe"></i>
+                </div>
+                <h4>NovaNet Ecosystem</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section id="stats" class="stats">
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-icon">
+                    <i class="fas fa-clock"></i>
+                </div>
+                <div class="stat-content">
+                    <h3><span class="counter" data-target="24">0</span>/7</h3>
+                    <p>Digital Presence</p>
+                </div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">
+                    <i class="fas fa-brain"></i>
+                </div>
+                <div class="stat-content">
+                    <h3><span class="counter">∞</span></h3>
+                    <p>AI-Powered Systems</p>
+                </div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">
+                    <i class="fas fa-tachometer-alt"></i>
+                </div>
+                <div class="stat-content">
+                    <h3><span class="counter" data-target="10">0</span>x</h3>
+                    <p>Faster Operations</p>
+                </div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <div class="stat-content">
+                    <h3><span class="counter" data-target="100">0</span>%</h3>
+                    <p>Smart Automation</p>
+                </div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">
+                    <i class="fas fa-arrow-up"></i>
+                </div>
+                <div class="stat-content">
+                    <h3><span class="counter" data-target="300">0</span>%</h3>
+                    <p>Digital Growth</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="section-header">
+            <h2>What Business Leaders <span class="gradient-text">Are Saying</span></h2>
+            <p>Real success stories from real businesses</p>
+        </div>
+
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <div class="testimonial-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p class="testimonial-text">"NovaNet transformed our business completely. We went from struggling with outdated systems to operating with cutting-edge AI automation. Our productivity increased by 250% in just 3 months!"</p>
+                <div class="testimonial-author">
+                    <img src="https://i.pravatar.cc/100?img=1" alt="Author">
+                    <div>
+                        <h4>Amara Okonkwo</h4>
+                        <p>CEO, TechStart Lagos</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="testimonial-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p class="testimonial-text">"The website NovaNet built for us quadrupled our online sales. Their digital marketing strategy and SEO optimization put us on the map. Best investment we've ever made!"</p>
+                <div class="testimonial-author">
+                    <img src="https://i.pravatar.cc/100?img=2" alt="Author">
+                    <div>
+                        <h4>Kwame Mensah</h4>
+                        <p>Founder, Premium E-commerce</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="testimonial-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p class="testimonial-text">"Their AI customer support system handles 95% of inquiries automatically. We saved 40% on customer service costs while improving response times from hours to seconds!"</p>
+                <div class="testimonial-author">
+                    <img src="https://i.pravatar.cc/100?img=3" alt="Author">
+                    <div>
+                        <h4>Zainab Ahmed</h4>
+                        <p>Operations Manager, SafariHotels</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="testimonial-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p class="testimonial-text">"From startup to scaling, NovaNet has been our perfect partner. Their ERP and CRM systems gave us the infrastructure we needed to grow 10x. Highly recommended!"</p>
+                <div class="testimonial-author">
+                    <img src="https://i.pravatar.cc/100?img=4" alt="Author">
+                    <div>
+                        <h4>David Kipchoge</h4>
+                        <p>Director, FastGrow Solutions</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="testimonial-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p class="testimonial-text">"The WhatsApp automation and AI marketing systems gave us access to customers 24/7. Our lead generation increased by 500% and conversion rates tripled!"</p>
+                <div class="testimonial-author">
+                    <img src="https://i.pravatar.cc/100?img=5" alt="Author">
+                    <div>
+                        <h4>Fatima Mohammed</h4>
+                        <p>CEO, Digital Revolution Inc</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="testimonial-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p class="testimonial-text">"NovaNet's branding and design services completely redesigned how we present our company. Our brand recognition jumped 400% and we now attract premium clients!"</p>
+                <div class="testimonial-author">
+                    <img src="https://i.pravatar.cc/100?img=6" alt="Author">
+                    <div>
+                        <h4>Victor Okafor</h4>
+                        <p>Managing Director, Prestige Real Estate</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section 1 -->
+    <section class="cta-section cta-1">
+        <div class="cta-content">
+            <h2>Ready to Build Your <span class="gradient-text">Digital Presence?</span></h2>
+            <p>A professional website is no longer optional—it's essential for business survival and growth</p>
+            <button class="btn btn-primary" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">
+                Build Your Website Now <i class="fas fa-arrow-right"></i>
+            </button>
+        </div>
+    </section>
+
+    <!-- CTA Section 2 -->
+    <section class="cta-section cta-2">
+        <div class="cta-content">
+            <h2>Stop Wasting Time on <span class="gradient-text">Manual Processes</span></h2>
+            <p>Let AI automation handle repetitive tasks so your team can focus on growth</p>
+            <button class="btn btn-primary" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">
+                Automate Your Operations <i class="fas fa-arrow-right"></i>
+            </button>
+        </div>
+    </section>
+
+    <!-- CTA Section 3 -->
+    <section class="cta-section cta-3">
+        <div class="cta-content">
+            <h2>Modernize Your Business <span class="gradient-text">Today</span></h2>
+            <p>Join hundreds of African businesses transforming through NovaNet's intelligent ecosystem</p>
+            <button class="btn btn-primary" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">
+                Start Your Transformation <i class="fas fa-arrow-right"></i>
+            </button>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <div class="section-header">
+            <h2>Frequently Asked <span class="gradient-text">Questions</span></h2>
+            <p>Everything you need to know about NovaNet</p>
+        </div>
+
+        <div class="faq-container">
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h4>What makes NovaNet different from other digital agencies?</h4>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>NovaNet is not just a digital agency—we're building a complete AI-powered business ecosystem. We combine website development, software solutions, automation, marketing, and branding into one integrated platform designed specifically for African businesses.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h4>How long does it take to build a website?</h4>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Our standard websites are completed in 2-4 weeks depending on complexity. Express options are available for businesses that need faster deployment. Custom enterprise solutions may take 6-12 weeks.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h4>Can you integrate with my existing systems?</h4>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Yes! NovaNet specializes in integrating with existing systems. We can connect your current software, databases, and tools to create a seamless, unified ecosystem.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h4>How much does a website cost?</h4>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Website pricing ranges from basic business sites (starting at affordable rates) to custom e-commerce and enterprise solutions. We offer flexible packages to fit every budget. Contact us for a personalized quote.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h4>Is your AI automation secure and compliant?</h4>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Absolutely. Our AI systems follow international security standards and data protection regulations. We ensure your business data is encrypted, backed up, and compliant with all relevant laws.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h4>Do you provide ongoing support and maintenance?</h4>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Yes! We offer comprehensive support packages including 24/7 monitoring, regular updates, security patches, and dedicated account management. Your success is our success.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h4>Can you help with digital marketing and SEO?</h4>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Yes! We offer complete digital marketing services including SEO, social media marketing, Google Business optimization, advertising campaigns, and lead generation to drive real business growth.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h4>How do I get started with NovaNet?</h4>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>It's simple! Contact us via phone (0742967501), WhatsApp, or through our contact form. We'll schedule a free consultation to understand your business needs and create a custom solution.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-header">
+            <h2>Let's Build the <span class="gradient-text">Future Together</span></h2>
+            <p>Get in touch with our team today</p>
+        </div>
+
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h4>Phone & WhatsApp</h4>
+                        <p><a href="tel:0742967501">0742967501</a></p>
+                        <p class="small">Available 24/7 for inquiries</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h4>Email</h4>
+                        <p><a href="mailto:hello@novanet.com">hello@novanet.com</a></p>
+                        <p class="small">We'll respond within 2 hours</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h4>Social Media</h4>
+                        <p><a href="https://instagram.com/novanet.ae" target="_blank">@novanet.ae</a></p>
+                        <p class="small">Follow for updates and insights</p>
+                    </div>
+                </div>
+            </div>
+
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="Your Phone/WhatsApp">
+                </div>
+                <div class="form-group">
+                    <select required>
+                        <option value="">Select Service</option>
+                        <option value="website">Website Development</option>
+                        <option value="software">Software Development</option>
+                        <option value="ai">AI & Automation</option>
+                        <option value="branding">Branding & Printing</option>
+                        <option value="marketing">Digital Marketing</option>
+                        <option value="business">Business Development</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Tell us about your project..." rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">
+                    Send Message <i class="fas fa-paper-plane"></i>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>NOVANET</h4>
+                <p>Building Africa's AI-Powered Business Future</p>
+                <div class="social-links">
+                    <a href="https://instagram.com/novanet.ae" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://wa.me/0742967501" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://facebook.com/novanet" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://twitter.com/novanet" target="_blank"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="#services">Website Development</a></li>
+                    <li><a href="#services">Software Development</a></li>
+                    <li><a href="#services">AI & Automation</a></li>
+                    <li><a href="#services">Digital Marketing</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#why-novanet">About Us</a></li>
+                    <li><a href="#ecosystem">Ecosystem</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p><strong>Phone:</strong> <a href="tel:0742967501">0742967501</a></p>
+                <p><strong>WhatsApp:</strong> <a href="https://wa.me/0742967501">Message us</a></p>
+                <p><strong>Instagram:</strong> <a href="https://instagram.com/novanet.ae">@novanet.ae</a></p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2024 NOVANET. All rights reserved. | Building the future of African business technology.</p>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/0742967501" target="_blank" class="whatsapp-btn" title="Chat with us on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
+/* ===========================
+   GLOBAL STYLES & VARIABLES
+   =========================== */
+
+:root {
+    --primary: #00d4ff;
+    --secondary: #ff006e;
+    --accent: #8338ec;
+    --dark-bg: #0a0e27;
+    --dark-card: #1a1f3a;
+    --light-text: #e0e0e0;
+    --text: #ffffff;
+    --border: #2a2f4a;
+    --success: #06ffa5;
+    --gradient: linear-gradient(135deg, #00d4ff, #8338ec, #ff006e);
+    --glow: 0 0 20px rgba(0, 212, 255, 0.3);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--dark-bg);
+    color: var(--text);
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+/* ===========================
+   TYPOGRAPHY
+   =========================== */
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+}
+
+h2 {
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+h4 {
+    font-size: 1.2rem;
+}
+
+p {
+    color: var(--light-text);
+    font-size: 1rem;
+}
+
+.gradient-text {
+    background: var(--gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* ===========================
+   BUTTONS & INTERACTIONS
+   =========================== */
+
+.btn {
+    padding: 12px 28px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+}
+
+.btn-primary {
+    background: var(--gradient);
+    color: var(--dark-bg);
+    box-shadow: 0 0 30px rgba(0, 212, 255, 0.4);
+}
+
+.btn-primary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0 50px rgba(0, 212, 255, 0.6);
+}
+
+.btn-secondary {
+    background: transparent;
+    border: 2px solid var(--primary);
+    color: var(--primary);
+}
+
+.btn-secondary:hover {
+    background: rgba(0, 212, 255, 0.1);
+    transform: translateY(-3px);
+}
+
+/* ===========================
+   NAVIGATION
+   =========================== */
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background: rgba(10, 14, 39, 0.9);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--border);
+    padding: 1rem 0;
+}
+
+.nav-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.5rem;
+    font-weight: 800;
+    background: var(--gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.nav-link {
+    color: var(--light-text);
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.nav-link:hover {
+    color: var(--primary);
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: var(--primary);
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
+.cta-btn {
+    background: var(--gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    border: 2px solid var(--primary);
+    padding: 8px 20px;
+    border-radius: 6px;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger span {
+    width: 25px;
+    height: 3px;
+    background: var(--primary);
+    margin: 5px 0;
+    transition: 0.3s;
+    border-radius: 2px;
+}
+
+/* ===========================
+   SECTIONS GENERAL
+   =========================== */
+
+section {
+    padding: 6rem 2rem;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.section-header h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.section-header p {
+    font-size: 1.2rem;
+    color: var(--light-text);
+}
+
+/* ===========================
+   HERO SECTION
+   =========================== */
+
+.hero {
+    margin-top: 60px;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 4rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -20%;
+    width: 600px;
+    height: 600px;
+    background: radial-gradient(circle, rgba(0, 212, 255, 0.1) 0%, transparent 70%);
+    border-radius: 50%;
+    animation: float 20s ease-in-out infinite;
+    z-index: -1;
+}
+
+.hero::after {
+    content: '';
+    position: absolute;
+    bottom: -30%;
+    left: -10%;
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(circle, rgba(131, 56, 236, 0.1) 0%, transparent 70%);
+    border-radius: 50%;
+    animation: float 25s ease-in-out infinite reverse;
+    z-index: -1;
+}
+
+.hero-content {
+    z-index: 10;
+}
+
+.hero-title {
+    font-size: 4rem;
+    line-height: 1.1;
+    margin-bottom: 1.5rem;
+    animation: fadeInUp 1s ease;
+}
+
+.hero-subtitle {
+    font-size: 1.3rem;
+    color: var(--light-text);
+    margin-bottom: 2.5rem;
+    max-width: 500px;
+    animation: fadeInUp 1s ease 0.2s both;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 1.5rem;
+    animation: fadeInUp 1s ease 0.4s both;
+}
+
+.hero-visual {
+    position: relative;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hologram {
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(circle, rgba(0, 212, 255, 0.2) 0%, rgba(131, 56, 236, 0.2) 50%, transparent 100%);
+    border-radius: 50%;
+    animation: pulse 3s ease-in-out infinite;
+    box-shadow: inset 0 0 60px rgba(0, 212, 255, 0.3), 0 0 60px rgba(0, 212, 255, 0.2);
+}
+
+.floating-card {
+    position: absolute;
+    background: rgba(26, 31, 58, 0.8);
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--border);
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 32px rgba(0, 212, 255, 0.1);
+    animation: float 4s ease-in-out infinite;
+}
+
+.card-1 {
+    top: 10%;
+    left: 10%;
+    animation-delay: 0s;
+}
+
+.card-2 {
+    top: 50%;
+    right: 5%;
+    animation-delay: 1s;
+}
+
+.card-3 {
+    bottom: 10%;
+    left: 5%;
+    animation-delay: 2s;
+}
+
+.card-content {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.card-content i {
+    font-size: 2rem;
+    background: var(--gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* ===========================
+   SERVICES SECTION
+   =========================== */
+
+.services {
+    background: linear-gradient(135deg, rgba(10, 14, 39, 0.5) 0%, rgba(26, 31, 58, 0.5) 100%);
+}
+
+.service-category {
+    margin-bottom: 4rem;
+}
+
+.service-category h3 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+    color: var(--primary);
+}
+
+.service-category i {
+    font-size: 2rem;
+}
+
+.service-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+}
+
+.service-item {
+    background: rgba(26, 31, 58, 0.8);
+    border: 1px solid var(--border);
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: center;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+    cursor: pointer;
+}
+
+.service-item:hover {
+    transform: translateY(-10px);
+    background: rgba(26, 31, 58, 1);
+    border-color: var(--primary);
+    box-shadow: 0 20px 40px rgba(0, 212, 255, 0.2);
+}
+
+.service-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    background: var(--gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.service-item h4 {
+    margin-bottom: 0.5rem;
+    color: var(--text);
+}
+
+.service-item p {
+    font-size: 0.9rem;
+}
+
+/* ===========================
+   WHY NOVANET SECTION
+   =========================== */
+
+.why-novanet {
+    background: linear-gradient(135deg, rgba(131, 56, 236, 0.05) 0%, rgba(255, 0, 110, 0.05) 100%);
+}
+
+.problems-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-bottom: 4rem;
+}
+
+.problems-col {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.problem-card {
+    background: rgba(26, 31, 58, 0.8);
+    border: 1px solid var(--border);
+    padding: 2rem;
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+}
+
+.problem-card:hover {
+    background: rgba(26, 31, 58, 1);
+    border-color: var(--secondary);
+    transform: translateX(10px);
+}
+
+.problem-icon {
+    font-size: 2rem;
+    color: var(--secondary);
+    margin-bottom: 1rem;
+}
+
+.problem-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.solution-box {
+    background: rgba(26, 31, 58, 0.9);
+    border: 1px solid var(--border);
+    padding: 3rem;
+    border-radius: 16px;
+    backdrop-filter: blur(10px);
+}
+
+.solution-box h3 {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 2rem;
+}
+
+.solution-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+}
+
+.solution-item {
+    text-align: center;
+    padding: 2rem;
+    border-radius: 12px;
+    background: rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+.solution-item:hover {
+    background: rgba(0, 212, 255, 0.1);
+    transform: translateY(-5px);
+}
+
+.solution-number {
+    font-size: 2.5rem;
+    font-weight: 800;
+    background: var(--gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 1rem;
+}
+
+.solution-item h4 {
+    margin-bottom: 1rem;
+}
+
+/* ===========================
+   ECOSYSTEM SECTION
+   =========================== */
+
+.ecosystem {
+    background: linear-gradient(135deg, rgba(0, 212, 255, 0.05) 0%, rgba(131, 56, 236, 0.05) 100%);
+}
+
+.ecosystem-vision {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 4rem;
+    background: rgba(26, 31, 58, 0.8);
+    padding: 2rem;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+}
+
+.ecosystem-vision h3 {
+    margin-bottom: 1rem;
+}
+
+.ecosystem-features {
+    margin-bottom: 4rem;
+}
+
+.feature-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.feature-item {
+    background: rgba(26, 31, 58, 0.8);
+    border: 1px solid var(--border);
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+}
+
+.feature-item:hover {
+    transform: translateY(-10px);
+    border-color: var(--primary);
+    background: rgba(26, 31, 58, 1);
+    box-shadow: 0 20px 40px rgba(0, 212, 255, 0.15);
+}
+
+.feature-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    background: var(--gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.feature-item h4 {
+    margin-bottom: 0.5rem;
+}
+
+.feature-item p {
+    font-size: 0.9rem;
+}
+
+.ecosystem-diagram {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 2rem;
+    background: rgba(26, 31, 58, 0.5);
+    border-radius: 16px;
+    border: 1px solid var(--border);
+}
+
+.ecosystem-center {
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(circle, rgba(0, 212, 255, 0.2) 0%, transparent 70%);
+    border: 2px solid var(--primary);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 50px rgba(0, 212, 255, 0.3), inset 0 0 50px rgba(0, 212, 255, 0.1);
+    animation: pulse 3s ease-in-out infinite;
+}
+
+.center-icon {
+    font-size: 4rem;
+    background: var(--gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 1rem;
+}
+
+.ecosystem-center h4 {
+    color: var(--primary);
+}
+
+/* ===========================
+   STATS SECTION
+   =========================== */
+
+.stats {
+    background: linear-gradient(135deg, rgba(255, 0, 110, 0.05) 0%, rgba(0, 212, 255, 0.05) 100%);
+    padding: 4rem 2rem;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.stat-card {
+    background: rgba(26, 31, 58, 0.8);
+    border: 1px solid var(--border);
+    padding: 2rem;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+}
+
+.stat-card:hover {
+    transform: translateY(-10px);
+    background: rgba(26, 31, 58, 1);
+    border-color: var(--primary);
+    box-shadow: 0 20px 40px rgba(0, 212, 255, 0.15);
+}
+
+.stat-icon {
+    font-size: 3rem;
+    background: var(--gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    min-width: 80px;
+}
+
+.stat-content h3 {
+    font-size: 2.5rem;
+    background: var(--gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 0.5rem;
+}
+
+.stat-content p {
+    color: var(--light-text);
+}
+
+/* ===========================
+   TESTIMONIALS SECTION
+   =========================== */
+
+.testimonials {
+    background: linear-gradient(135deg, rgba(10, 14, 39, 0.5) 0%, rgba(26, 31, 58, 0.5) 100%);
+}
+
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.testimonial-card {
+    background: rgba(26, 31, 58, 0.8);
+    border: 1px solid var(--border);
+    padding: 2rem;
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+}
+
+.testimonial-card:hover {
+    transform: translateY(-10px);
+    background: rgba(26, 31, 58, 1);
+    border-color: var(--primary);
+    box-shadow: 0 20px 40px rgba(0, 212, 255, 0.15);
+}
+
+.testimonial-stars {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    color: var(--accent);
+}
+
+.testimonial-text {
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.6;
+    font-style: italic;
+}
+
+.testimonial-author {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.testimonial-author img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid var(--primary);
+}
+
+.testimonial-author h4 {
+    margin-bottom: 0.25rem;
+    color: var(--primary);
+}
+
+.testimonial-author p {
+    font-size: 0.85rem;
+    color: var(--light-text);
+}
+
+/* ===========================
+   CTA SECTIONS
+   =========================== */
+
+.cta-section {
+    padding: 4rem 2rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.cta-1 {
+    background: linear-gradient(135deg, rgba(0, 212, 255, 0.1) 0%, rgba(131, 56, 236, 0.1) 100%);
+    border: 1px solid var(--border);
+}
+
+.cta-2 {
+    background: linear-gradient(135deg, rgba(131, 56, 236, 0.1) 0%, rgba(255, 0, 110, 0.1) 100%);
+    border: 1px solid var(--border);
+}
+
+.cta-3 {
+    background: linear-gradient(135deg, rgba(255, 0, 110, 0.1) 0%, rgba(0, 212, 255, 0.1) 100%);
+    border: 1px solid var(--border);
+}
+
+.cta-content {
+    max-width: 700px;
+    margin: 0 auto;
+    animation: fadeInUp 1s ease;
+}
+
+.cta-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.cta-content p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    color: var(--light-text);
+}
+
+/* ===========================
+   FAQ SECTION
+   =========================== */
+
+.faq {
+    background: linear-gradient(135deg, rgba(10, 14, 39, 0.5) 0%, rgba(26, 31, 58, 0.5) 100%);
+}
+
+.faq-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.faq-item {
+    background: rgba(26, 31, 58, 0.8);
+    border: 1px solid var(--border);
+    margin-bottom: 1rem;
+    border-radius: 12px;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+}
+
+.faq-item:hover {
+    border-color: var(--primary);
+    background: rgba(26, 31, 58, 1);
+}
+
+.faq-question {
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.3s ease;
+}
+
+.faq-question:hover {
+    background: rgba(0, 212, 255, 0.05);
+}
+
+.faq-question h4 {
+    flex: 1;
+    margin: 0;
+    color: var(--text);
+}
+
+.faq-question i {
+    color: var(--primary);
+    transition: transform 0.3s ease;
+    font-size: 1.2rem;
+}
+
+.faq-item.active .faq-question i {
+    transform: rotate(180deg);
+}
+
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    padding: 0 1.5rem;
+}
+
+.faq-item.active .faq-answer {
+    max-height: 500px;
+    padding: 0 1.5rem 1.5rem 1.5rem;
+}
+
+.faq-answer p {
+    margin: 0;
+    line-height: 1.8;
+}
+
+/* ===========================
+   CONTACT SECTION
+   =========================== */
+
+.contact {
+    background: linear-gradient(135deg, rgba(0, 212, 255, 0.05) 0%, rgba(131, 56, 236, 0.05) 100%);
+}
+
+.contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.contact-item {
+    background: rgba(26, 31, 58, 0.8);
+    border: 1px solid var(--border);
+    padding: 2rem;
+    border-radius: 12px;
+    display: flex;
+    gap: 1.5rem;
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+}
+
+.contact-item:hover {
+    transform: translateX(10px);
+    border-color: var(--primary);
+    background: rgba(26, 31, 58, 1);
+}
+
+.contact-icon {
+    font-size: 2rem;
+    background: var(--gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    min-width: 60px;
+}
+
+.contact-details h4 {
+    margin-bottom: 0.5rem;
+    color: var(--text);
+}
+
+.contact-details p {
+    margin-bottom: 0.25rem;
+}
+
+.contact-details a {
+    color: var(--primary);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.contact-details a:hover {
+    text-decoration: underline;
+}
+
+.small {
+    font-size: 0.8rem !important;
+    color: var(--light-text);
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    background: rgba(26, 31, 58, 0.8);
+    border: 1px solid var(--border);
+    padding: 1rem;
+    border-radius: 8px;
+    color: var(--text);
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    font-family: inherit;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: var(--primary);
+    background: rgba(26, 31, 58, 1);
+    box-shadow: 0 0 20px rgba(0, 212, 255, 0.2);
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: var(--light-text);
+}
+
+.form-group select option {
+    background: var(--dark-card);
+    color: var(--text);
+}
+
+.contact-form .btn {
+    width: 100%;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+/* ===========================
+   FOOTER
+   =========================== */
+
+.footer {
+    background: rgba(10, 14, 39, 0.95);
+    border-top: 1px solid var(--border);
+    padding: 4rem 2rem 2rem;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 3rem;
+    max-width: 1400px;
+    margin: 0 auto 3rem;
+}
+
+.footer-section h4 {
+    margin-bottom: 1rem;
+    background: var(--gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.footer-section p {
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 0.7rem;
+}
+
+.footer-section a {
+    color: var(--light-text);
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-size: 0.9rem;
+}
+
+.footer-section a:hover {
+    color: var(--primary);
+    transform: translateX(5px);
+}
+
+.social-links {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.social-links a {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 212, 255, 0.1);
+    border: 1px solid var(--border);
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    transform: none;
+}
+
+.social-links a:hover {
+    background: rgba(0, 212, 255, 0.2);
+    border-color: var(--primary);
+    transform: translateY(-5px);
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 2rem;
+    border-top: 1px solid var(--border);
+    color: var(--light-text);
+    font-size: 0.85rem;
+}
+
+/* ===========================
+   WHATSAPP BUTTON
+   =========================== */
+
+.whatsapp-btn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, #06ffa5 0%, #00d4ff 100%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    color: var(--dark-bg);
+    text-decoration: none;
+    box-shadow: 0 10px 40px rgba(6, 255, 165, 0.3);
+    transition: all 0.3s ease;
+    z-index: 999;
+    animation: bounce 2s ease-in-out infinite;
+}
+
+.whatsapp-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 15px 50px rgba(6, 255, 165, 0.5);
+    animation: none;
+}
+
+/* ===========================
+   ANIMATIONS
+   =========================== */
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-30px);
+    }
+}
+
+@keyframes pulse {
+    0%, 100% {
+        box-shadow: inset 0 0 60px rgba(0, 212, 255, 0.3), 0 0 60px rgba(0, 212, 255, 0.2);
+    }
+    50% {
+        box-shadow: inset 0 0 80px rgba(0, 212, 255, 0.5), 0 0 80px rgba(0, 212, 255, 0.4);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+/* ===========================
+   RESPONSIVE DESIGN
+   =========================== */
+
+@media (max-width: 768px) {
+    .hamburger {
+        display: flex;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+    .nav-menu.active {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background: rgba(10, 14, 39, 0.95);
+        flex-direction: column;
+        gap: 1rem;
+        padding: 2rem;
+        display: flex;
+        border-bottom: 1px solid var(--border);
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    .hero {
+        grid-template-columns: 1fr;
+        margin-top: 80px;
+        min-height: auto;
+        gap: 2rem;
+        padding: 2rem;
+    }
+
+    .hero-visual {
+        height: 300px;
+    }
+
+    .hologram {
+        width: 200px;
+        height: 200px;
+    }
+
+    .floating-card {
+        width: 120px;
+        padding: 1rem;
+    }
+
+    .card-content i {
+        font-size: 1.5rem;
+    }
+
+    .card-content p {
+        font-size: 0.8rem;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+    }
+
+    .problems-container {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .stats-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .stat-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .whatsapp-btn {
+        bottom: 20px;
+        right: 20px;
+        width: 50px;
+        height: 50px;
+        font-size: 1.4rem;
+    }
+
+    section {
+        padding: 3rem 1rem;
+    }
+
+    .section-header h2 {
+        font-size: 2rem;
+    }
+
+    .footer-content {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+}
+// ===========================
+// NAVIGATION
+// ===========================
+
+const hamburger = document.querySelector('.hamburger');
+const navMenu = document.querySelector('.nav-menu');
+const navLinks = document.querySelectorAll('.nav-link');
+
+if (hamburger) {
+    hamburger.addEventListener('click', () => {
+        navMenu.classList.toggle('active');
+        hamburger.classList.toggle('active');
+    });
+}
+
+navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+        navMenu.classList.remove('active');
+        hamburger.classList.remove('active');
+    });
+});
+
+// ===========================
+// SMOOTH SCROLLING
+// ===========================
+
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+            target.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+            });
+        }
+    });
+});
+
+// ===========================
+// NAVBAR BACKGROUND ON SCROLL
+// ===========================
+
+const navbar = document.querySelector('.navbar');
+window.addEventListener('scroll', () => {
+    if (window.scrollY > 50) {
+        navbar.style.background = 'rgba(10, 14, 39, 0.98)';
+        navbar.style.boxShadow = '0 4px 20px rgba(0, 212, 255, 0.1)';
+    } else {
+        navbar.style.background = 'rgba(10, 14, 39, 0.9)';
+        navbar.style.boxShadow = 'none';
+    }
+});
+
+// ===========================
+// COUNTER ANIMATION
+// ===========================
+
+const counters = document.querySelectorAll('.counter[data-target]');
+let counted = false;
+
+function startCounting() {
+    counters.forEach(counter => {
+        const target = parseInt(counter.getAttribute('data-target'));
+        const increment = target / 100;
+        let current = 0;
+
+        const updateCount = () => {
+            if (current < target) {
+                current += increment;
+                counter.textContent = Math.ceil(current);
+                setTimeout(updateCount, 30);
+            } else {
+                counter.textContent = target;
+            }
+        };
+
+        updateCount();
+    });
+}
+
+const statsSection = document.querySelector('.stats');
+if (statsSection) {
+    const observer = new IntersectionObserver((entries) => {
+        if (entries[0].isIntersecting && !counted) {
+            startCounting();
+            counted = true;
+            observer.unobserve(entries[0].target);
+        }
+    }, { threshold: 0.5 });
+
+    observer.observe(statsSection);
+}
+
+// ===========================
+// FAQ ACCORDION
+// ===========================
+
+const faqItems = document.querySelectorAll('.faq-item');
+
+faqItems.forEach(item => {
+    const question = item.querySelector('.faq-question');
+    
+    question.addEventListener('click', () => {
+        // Close other items
+        faqItems.forEach(otherItem => {
+            if (otherItem !== item) {
+                otherItem.classList.remove('active');
+            }
+        });
+
+        // Toggle current item
+        item.classList.toggle('active');
+    });
+});
+
+// ===========================
+// FORM SUBMISSION
+// ===========================
+
+const contactForm = document.querySelector('.contact-form');
+
+if (contactForm) {
+    contactForm.addEventListener('submit', async (e) => {
+        e.preventDefault();
+
+        const formData = new FormData(contactForm);
+        const name = contactForm.querySelector('input[type="text"]').value;
+        const email = contactForm.querySelector('input[type="email"]').value;
+        const phone = contactForm.querySelectorAll('input[type="text"]')[1]?.value || '';
+        const service = contactForm.querySelector('select').value;
+        const message = contactForm.querySelector('textarea').value;
+
+        // Create WhatsApp message
+        const whatsappMessage = `Hi NovaNet, I would like to inquire about your services.\n\nName: ${name}\nEmail: ${email}\nPhone: ${phone}\nService: ${service}\n\nMessage:\n${message}`;
+        const whatsappLink = `https://wa.me/0742967501?text=${encodeURIComponent(whatsappMessage)}`;
+
+        // Show success message and redirect to WhatsApp
+        alert('Thank you for your inquiry! You will be redirected to WhatsApp to complete your message.');
+        window.open(whatsappLink, '_blank');
+        contactForm.reset();
+    });
+}
+
+// ===========================
+// SCROLL ANIMATIONS
+// ===========================
+
+const observerOptions = {
+    threshold: 0.1,
+    rootMargin: '0px 0px -50px 0px'
+};
+
+const scrollObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.style.opacity = '1';
+            entry.target.style.transform = 'translateY(0)';
+            scrollObserver.unobserve(entry.target);
+        }
+    });
+}, observerOptions);
+
+// Observe elements for scroll animation
+document.querySelectorAll('.service-item, .problem-card, .testimonial-card, .feature-item, .stat-card').forEach(el => {
+    el.style.opacity = '0';
+    el.style.transform = 'translateY(20px)';
+    el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+    scrollObserver.observe(el);
+});
+
+// ===========================
+// PARALLAX EFFECT
+// ===========================
+
+const heroVisual = document.querySelector('.hero-visual');
+
+if (heroVisual) {
+    window.addEventListener('mousemove', (e) => {
+        const moveX = (e.clientX - window.innerWidth / 2) * 0.01;
+        const moveY = (e.clientY - window.innerHeight / 2) * 0.01;
+        heroVisual.style.transform = `translate(${moveX}px, ${moveY}px)`;
+    });
+}
+
+// ===========================
+// SERVICE CARDS HOVER EFFECT
+// ===========================
+
+const serviceItems = document.querySelectorAll('.service-item');
+
+serviceItems.forEach(item => {
+    item.addEventListener('mouseenter', function() {
+        this.style.transform = 'translateY(-15px) scale(1.05)';
+    });
+
+    item.addEventListener('mouseleave', function() {
+        this.style.transform = 'translateY(0) scale(1)';
+    });
+});
+
+// ===========================
+// ACTIVE NAV LINK ON SCROLL
+// ===========================
+
+const navItems = document.querySelectorAll('.nav-link');
+const sections = document.querySelectorAll('section');
+
+window.addEventListener('scroll', () => {
+    let current = '';
+    
+    sections.forEach(section => {
+        const sectionTop = section.offsetTop;
+        const sectionHeight = section.clientHeight;
+        
+        if (window.pageYOffset >= sectionTop - 200) {
+            current = section.getAttribute('id');
+        }
+    });
+
+    navItems.forEach(item => {
+        item.classList.remove('active');
+        const href = item.getAttribute('href').substring(1);
+        if (href === current) {
+            item.classList.add('active');
+        }
+    });
+});
+
+// ===========================
+// PAGE INITIALIZATION
+// ===========================
+
+document.addEventListener('DOMContentLoaded', () => {
+    console.log('%cWelcome to NOVANET', 'font-size: 24px; font-weight: bold; color: #00d4ff; text-shadow: 0 0 10px rgba(0, 212, 255, 0.5);');
+    console.log('%cBuilding Africa\'s AI-Powered Business Future', 'font-size: 16px; color: #8338ec;');
+    console.log('%cPhone: 0742967501 | WhatsApp: Available 24/7', 'font-size: 14px; color: #06ffa5;');
+})
